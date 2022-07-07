@@ -1,8 +1,7 @@
 # Werds - A LetThereBeLemons and @JamesBlake5 [repl.it] creation.
 # Liscensed under DONT STEAL ME CODE YOU ASSHOLE (DSMCYA)
-version = "b1-2"
+version = "b1-3"
 
-#TODO: Currently in the process of adding comments to this sh*tty code.
 # Hint: "Better Comments" VSCode extension is recommended, it adds some nice colours based on the type of comment.
 # Hint: Use the "Live Share" extension to collaborate, if you haven't already.
 
@@ -33,6 +32,7 @@ while game == True:
 	pwd_new[selection] = newletter.upper() # Sets the desired position to the desired letter.
 
 	#! BUGGY CODE STARTS HERE
+	#TODO: Fix this.
 
 	if stringFromList(pwd_new).lower() in WORDS:
 		print("success")
