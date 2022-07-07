@@ -4,6 +4,7 @@ version = "b1-2"
 
 #TODO: Currently in the process of adding comments to this sh*tty code.
 # Hint: "Better Comments" VSCode extension is recommended, it adds some nice colours based on the type of comment.
+# Hint: Use the "Live Share" extension to collaborate, if you haven't already.
 
 
 WORDS = []
